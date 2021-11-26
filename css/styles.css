@@ -1,51 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200');
-
 body {
-    overflow-x: hidden;
-    font-family:'Jost', sans-serif;
-    color: grey;
-}
+  font-family: "Jost", sans-serif; }
 
-
-.display-4 {
-    padding-top: 20px;
-}
-
-h3 {
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.container-fluid {
-}
-
+.jumbotron {
+  padding: 30px;
+  margin: 14px; }
 
 .navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 15px;
-   
-    background: rgba(0, 0, 0, .8)!important;
-}
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0 30px;
+  background: rgba(0, 0, 0, 0.8) !important; }
+
+.w-100 {
+  width: 100%;
+  height: 90vh; }
 
 .navbar-brand img {
-    height: 75px;
-}
+  height: 75px; }
 
 .navbar-nav li {
-    padding-right: 30px;
-}
+  padding-right: 30px; }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
-    padding-top: 15px;
-}
+  color: white;
+  padding: 15px; }
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: teal;
-}
+  color: teal; }
 
 .site-footer {
-    padding: 20px;
-}
+  padding: 20px; }

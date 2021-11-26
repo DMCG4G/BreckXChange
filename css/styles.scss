@@ -1,0 +1,53 @@
+$color-primary: #3046C5;
+$color-secondary: #5637dd;
+$color-pale: #CEC8FF;
+$color-mid: #901CAD;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: 'Jost', sans-serif;
+$header-font: 'Jost', sans-serif;
+
+body {
+    font-family: $body-font
+}
+
+.jumbotron {
+    padding: 30px;
+    margin: 14px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 30px;
+    background: rgba(0, 0, 0, .8)!important;
+}
+
+.w-100 {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .navbar-brand img {
+    height: 75px;
+}
+
+.navbar-nav li {
+    padding-right: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: teal;
+}
+
+.site-footer {
+    padding: 20px;
+}
