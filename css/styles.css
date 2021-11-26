@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200');
+
+body {
+    overflow-x: hidden;
+    font-family:'Jost', sans-serif;
+    color: grey;
+}
+
+
+.display-4 {
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container-fluid {
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+   
+    background: rgba(0, 0, 0, .8)!important;
+}
+
+.navbar-brand img {
+    height: 75px;
+}
+
+.navbar-nav li {
+    padding-right: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: teal;
+}
+
+.site-footer {
+    padding: 20px;
+}
