@@ -5,6 +5,11 @@ body {
   padding: 30px;
   margin: 14px; }
 
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -12,9 +17,9 @@ body {
   margin: 0 30px;
   background: rgba(0, 0, 0, 0.8) !important; }
 
-.w-100 {
+.carousel-inner img {
   width: 100%;
-  height: 90vh; }
+  max-height: 870px; }
 
 .navbar-brand img {
   height: 75px; }
@@ -32,8 +37,3 @@ body {
 
 .site-footer {
   padding: 20px; }
-
-.tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px; }
