@@ -12,3 +12,7 @@
     $("#gearButton").click(function() {
         $("#gearModal").modal("show");
     });
+   
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
