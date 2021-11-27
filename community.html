@@ -1,76 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- Required meta tags always come first -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-            <!-- build:css css/main.css -->
-    
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    
-     
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-        <link rel="stylesheet" href="css/styles.css" />    
-        <!-- endbuild -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@200" />
-        
-        <title>Breck Bike Exchange</title>
-    </head>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- build:css css/main.css -->
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@200" />
+
+    <title>Breck Bike Exchange</title>
+</head>
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
-     
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/howitworks.html">How This Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Community</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connect</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="mailto:breckxchange@gmaiil.com">Send Us A Message!</a>
-                            <a class="dropdown-item" href="#">Facebook</a>
-                            <a class="dropdown-item" href="#">Instagram</a>
-                            <a class="dropdown-item" href="/contact.html">Contact Us</a>
-                        </div>
-                    </li>
-                </ul>
-                <span class="navbar-text ml-auto">
-                    <a role="button" id="loginButton">
-                        <i class="fa fa-arrow-circle-right"></i>Login
-                    </a>
-                </span>
-            </div>
-        
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/howitworks.html">How This Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Community</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connect</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="mailto:breckxchange@gmaiil.com">Send Us A Message!</a>
+                        <a class="dropdown-item" href="http://facebook.com">Facebook</a>
+                        <a class="dropdown-item" href="http://instagram.com">Instagram</a>
+                        <a class="dropdown-item" href="/contact.html">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+            <span class="navbar-text ml-auto">
+                <a role="button" id="loginButton">
+                    <i class="fa fa-arrow-circle-right"></i>Login
+                </a>
+            </span>
+        </div>
+
     </nav>
 
-    <hr class="my-4">
-    <figure>
-        <div class="fixed-wrap">
-            <div id="fixed">
+    <main class="mt-5">
+        <div class="container">
+          <!--Section: Content-->
+          <section>
+            <div class="row">
+              <div class="col-md-6 gx-5 mb-4">
+                <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                  <img src="img/GroupMTB.jpg" class="img-fluid" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+              </div>
+  
+              <div class="col-md-6 gx-5 mb-4">
+                <h4><strong>Community Comes First</strong></h4>
+                <p class="text-muted">
+                  At Breckenridge Bike Exchange, we are more than just a gear shop or a means to sell/buy gear. We believe in fostering
+                  a welcoming community of cyclists, skiers and snowboarders, and outdoor enthusiasts! Stop by the shop to see what we are all about. We host clinics, weekly group rides, and even have a small book club!
+                </p>
+                <p><strong>Not Sure Your Skill Level?</strong></p>
+                <p class="text-muted">
+                  No problem! We have ride leaders who are certified who will divide our group up into separate groups. Both groups are no drop rides and we all will meet back up at the shop for post ride banter and beverages! Please leave your dogs at home though. We love dogs, but not every dog is a good trail dog.
+                </p>
+              </div>
             </div>
-        </div>    
-    </figure>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h2>About Us</h2>
-                <hr />
+          </section>
+          <!--Section: Content-->
+  
+          <hr class="my-5" />
+  
+          <!--Section: Content-->
+          <section class="text-center">
+            <h4 class="mb-5"><strong>Ways to Get Involved</strong></h4>
+  
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img
+                      src="img/bikeppl.jpg"
+                      class="img-fluid"
+                    />
+                
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Guided Bike Tours</h5>
+                    <p class="card-text">
+                      We offer guided mountain and road bike tours through Summit County. Click for more info.
+                    </p>
+                    <a role="button" id="tourButton" class="btn btn-primary">Book a Tour</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img
+                      src="img/ski.jpg"
+                      class="img-fluid"
+                    />
+                 
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Group Ski and Snowboard Days</h5>
+                    <p class="card-text">
+                      Stay tuned as winter is coming for our ski/snowboard days, wax and sharpen clinics.
+                    </p>
+                    <a href="#!" class="btn btn-primary">Coming Soon</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img
+                      src="img/assessories2.jpg"
+                      class="img-fluid"
+                    />
+                   
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Road and MTB Clinics</h5>
+                    <p class="card-text">
+                      We offer beginner to advanced road and mountain bike clinics. Swing by for more info.
+                    </p>
+                    <a href="mailto:breckxchange@gmaiil.com" class="btn btn-primary">Get Info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Section: Content-->
+  
+          <hr class="my-5" />
+  
+          <!--Section: Content-->
+          <section class="mb-5">
+            <h4 class="mb-5 text-center"><strong>Stay up to date by signing up!</strong></h4>
+  
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-6">
+                <form>
+                  <!-- 2 column grid layout with text inputs for the first and last names -->
+                  <div class="row mb-4">
+                    <div class="col">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example1" class="form-control" />
+                        <label class="form-label" for="form3Example1">First name</label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example2" class="form-control" />
+                        <label class="form-label" for="form3Example2">Last name</label>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control" />
+                    <label class="form-label" for="form3Example3">Email address</label>
+                  </div>
+  
+                  <!-- Password input -->
+                  <div class="form-outline mb-4">
+                    <input type="telephone number" id="form3Example4" class="form-control" />
+                    <label class="form-label" for="form3Example4">Telelphone Number</label>
+                  </div>
+  
+                  <!-- Checkbox -->
+                  <div class="form-check d-flex justify-content-center mb-4">
+                    <input
+                      class="form-check-input me-2"
+                      type="checkbox"
+                      value=""
+                      id="form2Example3"
+                      checked
+                    />
+                    <label class="form-check-label" for="form2Example3">
+                      Subscribe to our newsletter
+                    </label>
+                  </div>
+  
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary btn-block mb-4">
+                    Sign up
+                  </button>
+                </form>
+              </div>
+            </div>
+          </section>
+          <!--Section: Content-->
+        </div>
+      </main>
+        
+
+
+
+
+
+<!--TourModal-->
+    <div id="tourModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Guided Bike Tours</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label">Number of People</label>
+                                <div class="col">
+                                    <select name="numRiders" id="numRiders" class="form-control">
+                                        <option selected>Select...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+                                <label for="date" class="col-sm-6 col-form-label">Date</label>
+                                <div class="col">
+                                    <input class="form-control" type="date" id="date" name="date"
+                                        placeholder="mm/dd/yyyy">
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label">Tour Type</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label for="typeMTB" class="btn btn-success active">
+                                        <input type="radio" name="tourType" id="typeMTB" value="MTB"
+                                            autocomplete="off" checked> MTB
+                                    </label>
+                                    <label for="typeRoad" class="btn btn-primary">
+                                        <input type="radio" name="tourType" value="Road" id="typeRoad" autocomplete="off">
+                                        Road
+                                    </label>
+                                    <label for="typeGravel" class="btn btn-info">
+                                        <input type="radio" name="tourType" id="typeGravel" value="Gravel"
+                                            autocomplete="off" checked> Gravel
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col">
+                                    <button type="submit" data-dismiss="modal" class="btn btn-dark"
+                                        value="Submit">Cancel</button>
+                                    <button type="submit" class="btn btn-primary" value="Submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>    
+    
+
+
+
+      <!--Footer-->
+      <footer class="text-center text-lg-start border border-black mt-xl-5 pt-4">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Navigation</h5>
+                    <ul class="list-unstyled mb-4">
+                        <li><a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="howitworks.html">How it Works</a>
+                        </li>
+                        <li>
+                            <a href="community.html">Community</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Connect With Us</a>
+                        </li>
+                    </ul>
+                </div>
+              
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Location</h5>
+
+                    <ul class="list-unstyled">
+                        <li>123 South Main Street</li>
+                        <li>Breckenridge, CO 80424</li>
+                        <li>970-453-1234</li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Hours</h5>
+
+                    <ul class="list-unstyled">
+                        <li>Monday - Friday: 10 am - 6 pm</li>
+                        <li>Saturday: 8 am - 7 pm</li>
+                        <li>Sunday: 8 am - 7 pm</li>    
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Sign Up For Our Newsletter</h5>
+
+                    <div class="form-outline form-white mb-4">
+                        <input type="email" id="form5Example2" class="form-control" />
+                        <label class="form-label" for="form5Example2">Email address</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-info btn-block">Subscribe</button>
+                </div>
+            <div>
+            © 2021 Copyright:
+            <p>DMCG4G</p>
+            </div>
+        
+    </footer>
+
+     <!-- build:js js/main.js -->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="js/scripts.js"></script>
+     <!-- endbuild -->
+
+     </body>
+     </html>

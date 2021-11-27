@@ -1,6 +1,14 @@
 
 // login modal activate code
 
-$("#loginButton").click(function() {
-    $("#loginModal").modal("show");
-});   
+    $("#tourButton").click(function() {
+        $("#tourModal").modal("show");
+    });
+
+    $("#loginButton").click(function() {
+        $("#loginModal").modal("show");
+    });   
+
+    $("#gearButton").click(function() {
+        $("#gearModal").modal("show");
+    });

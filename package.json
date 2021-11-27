@@ -12,7 +12,7 @@
     "scss": "node-sass -o css/ css/",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin community.html -d dist --htmlmin -o dist/community.html && usemin index.html -d dist --htmlmin -o dist/index.html && howitworks.html -d dist --htmlmin -o dist/howitworks.html",
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin community.html -d dist --htmlmin -o dist/community.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin howitworks.html -d dist --htmlmin -o dist/howitworks.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
